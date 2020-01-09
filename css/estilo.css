@@ -1,0 +1,82 @@
+/*Topo do Site*/
+header{width: 100%; height: 700px;background-image:url("../images/pizza2.png"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: top center;}
+header section{width: 80%; margin: 0% 10%; }
+header section .title, header section .par{text-shadow: 1px 1px 2px #000; }
+header section img{width: 30%; margin: 5% 35%;}
+
+.access{width: 100%; height: 800px;background-image:url("../images/pizza2.png"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: top center;}
+.access section{width: 80%; margin: 0% 10%; }
+.access section img{width: 30%; margin: 5% 35%;}
+
+/*Principal do Site*/
+main{width: 100%; height: auto;}
+main .faixa{width: 100%; margin: 0% 0%;}
+main section{width: 80%; margin: 0% 10%; }
+main section p{margin: 2% 0%; padding: 0% 10%;}
+
+/*Formulário do Site */
+.formulario{width: 100%; height: auto;background-image:url("../images/pizza2.png"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: top center; }
+.formulario h3{margin: 0% 20%;text-shadow: 2px 2px 1px #000;}
+label{ margin: 0.5% 20%; text-shadow: 0px 0px 1px #000;}
+input[type=text]{padding: 1% 5%; width: 50%; margin: 0.5% 20%; box-shadow: 1px 1px 2px #000;}
+input[type=email]{padding: 1% 5%; width: 50%; margin: 0.5% 20%;box-shadow: 1px 1px 2px #000;}
+select{padding: 1% 5%; width: 52%; margin: 0.5% 20%;box-shadow: 1px 1px 2px #000;}
+input[type=password]{padding: 1% 5%; width: 50%; margin: 0.5% 20%;box-shadow: 1px 1px 2px #000;}
+input[type=number]{padding: 1% 5%; width: 50%; margin: 0.5% 20%;box-shadow: 1px 1px 2px #000;}
+input[type=submit]{padding: 1% 5%; width: 50%; margin: 0.5% 20%;box-shadow: 1px 1px 2px #000;}
+button{padding: 1% 2%; margin: 0.5% 20%; cursor: pointer;box-shadow: 1px 1px 2px #000;}
+.doar{margin-top: -40px; margin-left: -230px;box-shadow: 1px 1px 2px #000;}
+
+.guias{width: 80%; height: auto; margin: 10%;background-color: #eee;}
+.fechar{margin: 1% 0% 1% 80%}
+.abas li a{float: left; padding: 10px 5% 10px 5%; background-color: #fff; color: #333; font-weight: 700; margin-left: 5px; }
+.first{margin-left: 20%;}
+.carregar{text-align:center; font-size: 1.2em;}
+
+/*Rodapé do Site*/
+footer{width: 100%; height: auto; }
+footer section{width: 80%; margin: 0% 10%; }
+footer section p{margin: 0% 0%; padding: 0% 10%;}
+
+
+@media (max-width: 1330px){
+header{width: 100%; height:500px;}
+.doar{margin-left: -150px;}
+}
+
+@media (max-width: 800px){
+.doar{margin-left: -120px;}
+header section img{width: 60%; margin: 5% 20%;}
+}
+
+@media (max-width: 700px){
+.formulario h3{margin: 0% 20%; font-size: 1.2em;}
+}
+
+@media (max-width: 610px){
+header{width: 100%; height:500px;}
+header section img{width: 60%; margin: 5% 20%;}
+label{ margin: 0.5% 10%; }
+input[type=text]{padding: 1% 5%; width: 70%; margin: 0.5% 10%;}
+input[type=email]{padding: 1% 5%; width: 70%; margin: 0.5% 10%;}
+input[type=submit]{padding: 1% 5%; width: 70%; margin: 0.5% 10%;}
+button{padding: 1% 2%; margin: 0.5% 10%; cursor: pointer;}
+.doar{margin-left: 0px;}
+.formulario h3{margin: 0% 10%; font-size: 1.2em;}
+}
+
+
+@media (max-width: 390px){
+header{width: 100%; height:400px;}
+header section img{width: 60%; margin: 20% 20%;}
+.doar{padding: 1% 2%; margin: 0.5% 10%; width: 80%; display:block;}
+button{padding: 1% 2%; margin: 0.5% 10%; cursor: pointer; width: 80%; display:block;}
+header section .title{font-size: 1.5em;}
+header section .par{font-size: 2em; margin:2% 0%;}
+main .faixa h1{font-size: 1.5em;}
+main .faixa p{font-size: 1em;}
+main .form_text p{font-size: 0.9em; margin: 2% 0%; padding: 0% 2%;}
+.formulario h3{margin: 0% 10%; font-size: 1em;}
+footer .footer_text{margin: 1% 0%; padding: 0% 10%;font-size: 0.8em;}
+footer span{display:block; margin-top: 0px;}
+}
